@@ -1,10 +1,8 @@
 # importaCSV
-Neste projeto temos 3 soluções para um mesmo problema: Validação de senha.
-* Podemos fazer tudo junto com um laço de repetição cheio de if;
-* Podemos usar expressão regula; 
-* Ou ainda podemos separar em métodos organizados e simples de realizar manutenção.
+Neste projeto temos código para:
+* ler a primeira linha de um arquivo CSV e criar uma tabela no MySQL.
+* ler as demais linhas de um arquivo CSV e inserir os dados no banco de dados
+* ler novos arquivos CSV e manter a base de dados atualizada, seguindo as seguintes regras:
+  1. não inserir dados caso eles já existam
+  2. atualizar apenas as informações novas em linhas já existentes
 
-Abaixo segue link para vídeo sobre este assunto:
-Vídeo sobre diferentes tipos de validação de senha <https://youtu.be/cEF69amZc3I> 
-
-Bons códigos:
